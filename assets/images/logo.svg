@@ -1,0 +1,34 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Tower/Antenna -->
+  <path d="M25 90 L30 40 L35 90" stroke="#000" stroke-width="2" fill="none"/>
+  <circle cx="32.5" cy="45" r="3" fill="none" stroke="#000" stroke-width="1"/>
+
+  <!-- Radio waves -->
+  <path d="M15 50 Q20 45 25 50" stroke="#000" stroke-width="1" fill="none"/>
+  <path d="M40 50 Q35 45 30 50" stroke="#000" stroke-width="1" fill="none"/>
+  <path d="M10 55 Q17 47 25 55" stroke="#000" stroke-width="1" fill="none"/>
+  <path d="M45 55 Q38 47 30 55" stroke="#000" stroke-width="1" fill="none"/>
+
+  <!-- Woman silhouette holding globe -->
+  <path d="M55 90 Q55 80 60 75 Q65 70 70 75 Q75 70 85 75 Q90 80 90 90 L90 90 Q85 85 75 85 Q65 85 55 90" fill="#000"/>
+
+  <!-- Globe -->
+  <circle cx="75" cy="55" r="15" fill="none" stroke="#000" stroke-width="2"/>
+  <path d="M60 55 Q75 50 90 55" stroke="#000" stroke-width="1" fill="none"/>
+  <path d="M60 55 Q75 60 90 55" stroke="#000" stroke-width="1" fill="none"/>
+  <path d="M75 40 L75 70" stroke="#000" stroke-width="1"/>
+
+  <!-- Globe signals -->
+  <circle cx="75" cy="55" r="20" fill="none" stroke="#000" stroke-width="1" stroke-dasharray="3,3"/>
+  <circle cx="75" cy="55" r="25" fill="none" stroke="#000" stroke-width="1" stroke-dasharray="2,4"/>
+
+  <!-- Barbed wire -->
+  <path d="M95 85 L110 80 L105 75 L115 70" stroke="#000" stroke-width="1.5" fill="none"/>
+  <path d="M98 82 L102 78 M108 77 L112 73" stroke="#000" stroke-width="1"/>
+
+  <!-- City skyline -->
+  <rect x="15" y="85" width="8" height="10" fill="#000"/>
+  <rect x="25" y="80" width="6" height="15" fill="#000"/>
+  <rect x="33" y="88" width="5" height="7" fill="#000"/>
+  <rect x="40" y="82" width="7" height="13" fill="#000"/>
+</svg>
