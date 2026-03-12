@@ -1,12 +1,27 @@
 
 
 ### Custom Domain Setup
+Go to wherever your domain DNS is managed (Namecheap, GoDaddy, Cloudflare, etc.).
 
-1. **Buy a domain** from Namecheap, Google Domains, or Cloudflare
-2. **Configure DNS** in your registrar:
-   - CNAME record: `www` → `your-username.github.io`
-   - A records: `@` → GitHub Pages IPs (185.199.108-111.153)
-3. **Add domain in GitHub**: Settings > Pages > Custom domain
-4. **Enable HTTPS** (recommended)
+### Add A records
 
-This project is created for the Iranian Women's Coalition for Internet Freedom.
+Add the following DNS **A records**:
+
+| Type | Name | Value |
+|-----|-----|-----|
+| A | @ | 185.199.108.153 |
+| A | @ | 185.199.109.153 |
+| A | @ | 185.199.110.153 |
+| A | @ | 185.199.111.153 |
+
+These IP addresses are the official **GitHub Pages servers**.
+
+---
+
+### Add WWW support (recommended)
+
+Add the following **CNAME record**:
+
+| Type | Name | Value |
+|-----|-----|-----|
+| CNAME | www | iranianwomen4internet.github.io |
