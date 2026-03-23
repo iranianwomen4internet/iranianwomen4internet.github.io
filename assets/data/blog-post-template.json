@@ -1,0 +1,7 @@
+{
+  "title": "Your Blog Post Title Here",
+  "author": "Your Name",
+  "date": "YYYY-MM-DD",
+  "content": "Write your blog post content here.\n\nUse double line breaks to create new paragraphs.\n\nYou can write multiple paragraphs like this.",
+  "tags": ["tag1", "tag2", "tag3"]
+}
